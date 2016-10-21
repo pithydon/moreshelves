@@ -2,6 +2,8 @@ moreshelves by pithydon (2016)
 
 There is a shelf for that.
 
+Forum: https://forum.minetest.net/viewtopic.php?f=9&t=15724
+
 Github: https://github.com/pithydon/moreshelves
 
 License for all of this mod is "CC0", see below.
@@ -40,7 +42,9 @@ Items need to be in group food to be placed in food shelves.
 
 To register a new shelf use moreshelves.register_shelf(node_name, node_description, texture, allow_put).
 
-allow_put defines what can be placed in the shelf. allow_put is a table with the item names or group names.
+allow_put defines what can be placed in the shelf. allow_put is a table with the item names "modname:itemname" or group names "group:groupname".
+
+"moreshelves:all" is a spacial item that allows any item to be placed in a shelf.
 
 example:
 
